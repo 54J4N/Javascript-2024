@@ -1,0 +1,21 @@
+# Ignore node_modules directory
+# This directory contains installed dependencies
+# which are not needed in version control
+node_modules/
+
+# Ignore all .log files
+# Log files are generated during runtime or debugging
+# and are unnecessary for version control
+*.log
+
+# Ignore .env file which stores sensitive environment variables
+# such as API keys, passwords, and database connections
+.env
+
+# Build output
+#When working on projects, especially in web development, build outputs 
+#(e.g., files in dist/ and build/) are generated from compiling source code. 
+#Adding these directories to .gitignore prevents versioning unnecessary files, 
+#reduces repository size, avoids merge conflicts, and keeps the focus on the actual codebase.
+dist/
+build/
